@@ -1,0 +1,22 @@
+.hero {
+    height: fit-content;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.heroMain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.mainLogo {
+    width: 250px;
+}
+.mainHeader {
+    color: #33556e;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.mainContent {
+    font-size: 1.4em;
+    max-width: 800px;
+}

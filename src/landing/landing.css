@@ -1,0 +1,91 @@
+.programs {
+    background-color: rgb(240,240,240);
+    height: calc(100% + 500px);
+}
+.programsMain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.programsImg {
+    height: 70px;
+    width: 70px;
+    padding: 0 10px 0 0;
+}
+@media only screen and (max-width: 500px) {
+    .programsImg {
+        padding: 10px;
+    }
+    .programsContent {
+        padding-top: 20px;
+    }
+}
+.programsHeader {
+    font-weight: bold;
+    flex: 1 0 auto;
+    padding-top: 8px;
+}
+.programsExplore {
+    font-weight: bold;
+    color: #33556e;
+    text-decoration: none;
+}
+.exploreLink {
+    float: right;
+}
+
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  /*Flex items*/
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-item {
+    display: flex; 
+    width: 100%;
+  }
+  @media all and (min-width: 40em) {
+    .list-item {
+      width: 50%;
+    }
+  }
+  @media all and (min-width: 60em) {
+    .list-item {
+      width: 50%;
+    }
+  }
+.list-content {
+  background-color: #fff;
+  display: flex;
+  flex-flow: wrap;
+  padding: 1em;
+  width: 100%;
+  margin: 1em;
+}
+  /*Sub Programs List */
+.subProgramsImg {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+  background-color: #33556e;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+.subProgramsExplore {
+    font-weight: bold;
+    color: #33556e;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 24px;
+  }
