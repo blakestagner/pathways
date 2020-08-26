@@ -21,8 +21,8 @@ export default class App extends React.Component {
           <Switch>
             <React.Fragment>
               <Route exact path="/" component={ Landing } />
-              <Route exact path='/programs/:filter?' component={ Programs } />
-             
+              <Route exact path='/programs/:programsId' component={ Programs } />
+              <Route exact path='/programs/:programsId/:programDetail' component={ Programdetails } />
             </React.Fragment>
           </Switch>
         </Router>

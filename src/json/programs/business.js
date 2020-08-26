@@ -47,3 +47,4 @@ const bus = [
         }
         ]
 ]
+module.exports = { bus: bus}

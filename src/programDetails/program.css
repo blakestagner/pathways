@@ -1,0 +1,25 @@
+.degreeContent {
+    width: inherit;
+    border: 2px #33556e solid;
+    background-color: #ebeef1;
+    color: #33556e;
+    margin-bottom: 10px;
+}
+.degreeContainer {
+    background-color: #fff;
+    flex-flow: wrap;
+    padding: 1em;
+    width: 100%;
+    margin: 1em;
+}
+.degreeInner {
+    padding: 5px 10px;
+}
+.degreeContainer h2 {
+    text-align: center
+}
+.newShit {
+    display: grid;
+    place-items: center
+
+}

@@ -30,7 +30,8 @@
     font-weight: bold;
     color: #33556e;
     text-decoration: none;
-}
+    cursor: pointer;
+  }
 .exploreLink {
     float: right;
 }

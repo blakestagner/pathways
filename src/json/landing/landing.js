@@ -2,7 +2,12 @@ const mainPathways = [
         {
         id: 'arts',
         pathwayName: 'Art & Communications',
-        content: 'Communication that inspires, entertains and informs is a key skill that employers want in this competitive economy and increasingly diversified society. Our courses guide you to articulate your voice and worldview through cultural competency, advocacy, and critical thinking across a variety of mediums: speaking, writing, languages, music, art and design.'
+        content: 'Communication that inspires, entertains and informs is a key skill that employers want in this competitive economy and increasingly diversified society. Our courses guide you to articulate your voice and worldview through cultural competency, advocacy, and critical thinking across a variety of mediums: speaking, writing, languages, music, art and design.',
+        programs: [
+                    {id: '0',
+                    name: '1'
+                    },
+                    ]
         },
         {
         id: 'business',
@@ -35,22 +40,42 @@ const mainPathways = [
         {
         id: 'education',
         pathwayName: 'Education & Library Services',
-        content: 'Early childhood and elementary school teachers help students learn and apply important concepts, often through hands-on approaches, and help develop problem-solving and critical thinking skills to actualize children’s potential. Many educators and librarians find a deep meaning in helping others reach their highest capability.'
+        content: 'Early childhood and elementary school teachers help students learn and apply important concepts, often through hands-on approaches, and help develop problem-solving and critical thinking skills to actualize children’s potential. Many educators and librarians find a deep meaning in helping others reach their highest capability.',
+        programs: [
+                    {id: '0',
+                    name: '1'
+                    },
+                    ]
         },
         {
         id: 'health',
         pathwayName: 'Health and ',
-        content: 'If you would enjoy helping people achieve and maintain a healthy lifestyle, you may be interested in the health and wellness field. Healthcare professionals may work in hospitals, clinics or other medical facilities. Wellness professionals may work in schools, community centers, fitness facilities, or other health/wellness settings.'
+        content: 'If you would enjoy helping people achieve and maintain a healthy lifestyle, you may be interested in the health and wellness field. Healthcare professionals may work in hospitals, clinics or other medical facilities. Wellness professionals may work in schools, community centers, fitness facilities, or other health/wellness settings.',
+        programs: [
+                    {id: '0',
+                    name: '1'
+                    },
+                    ]
         },
         {
         id: 'stem',
         pathwayName: 'STEM',
-        content: 'Do you want to make a difference in the world by investigating mysteries, inventing devices, or creating solutions? Then the STEM Pathway may be for you.'
+        content: 'Do you want to make a difference in the world by investigating mysteries, inventing devices, or creating solutions? Then the STEM Pathway may be for you.',
+        programs: [
+                    {id: '0',
+                    name: '1'
+                    },
+                    ]
         },
         {
         id: 'people',
         pathwayName: 'People & Communities',
-        content: 'This pathway studies the connections between people in diverse societies; how people interact and influence each other; and how the past connects to the present. This is your pathway if you want to influence your community and make the world a better place.'
+        content: 'This pathway studies the connections between people in diverse societies; how people interact and influence each other; and how the past connects to the present. This is your pathway if you want to influence your community and make the world a better place.',
+        programs: [
+                    {id: '0',
+                    name: '1'
+                    },
+                    ]
         }
     ];
 const eduInformation = [
